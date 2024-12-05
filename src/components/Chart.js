@@ -12,7 +12,29 @@ import {
 } from "recharts";
 import { useContext } from "react";
 import { CryptoContext } from "./../context/CryptoContext";
-
+  return (
+    <ResponsiveContainer height={"90%"}>
+      <LineChart width={400} height={400} data={data}>
+        <Line
+          type="monotone"
+          dataKey={type}
+          stroke="#14ffec"
+          strokeWidth={"1px"}
+        />
+        <CartesianGrid stroke="#323232" />
+        <XAxis dataKey="date" hide />
+        <YAxis dataKey={type} hide domain={["auto", "auto"]} />
+        <Tooltip
+          content={<CustomTooltip />}
+          currency={currency}
+          cursor={false}
+          wrapperStyle={{ outline: "none" }}
+        />
+        <Legend />
+      </LineChart>
+    </ResponsiveContainer>
+  );
+};
 function CustomTooltip({ payload, label, active, currency = "usd" }) {
   if (active && payload && payload.length > 0) {
     return (
