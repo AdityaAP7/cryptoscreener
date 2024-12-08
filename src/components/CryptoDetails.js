@@ -31,7 +31,9 @@ const HighLowIndicator = ({ currentPrice, high, low }) => {
   1
   1
 
-  1
+  1let { coinId } = useParams();
+  let navigate = useNavigate();
+  let { getCoinData, coinData: data, currency } = useContext(CryptoContext);
   1
   1
   1let { coinId } = useParams();
