@@ -8,7 +8,9 @@ import Chart from "./Chart";
 
 const HighLowIndicator = ({ currentPrice, high, low }) => {
   const [green, setGreen] = useState();
-1
+1let { coinId } = useParams();
+  let navigate = useNavigate();
+  let { getCoinData, coinData: data, currency } = useContext(CryptoContext);
   2
   11let { coinId } = useParams();
   let navigate = useNavigate();
