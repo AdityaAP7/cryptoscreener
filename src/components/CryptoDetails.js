@@ -8,7 +8,43 @@ import Chart from "./Chart";
 
 const HighLowIndicator = ({ currentPrice, high, low }) => {
   const [green, setGreen] = useState();
+1
+  2
+  11
+  1
+  1
+  1
+  11
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
 
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
   useEffect(() => {
     let total = high - low;
     let greenZone = ((high - currentPrice) * 100) / total;
