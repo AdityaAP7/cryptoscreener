@@ -1,4 +1,4 @@
-qqqqqqqqqqqqqqqqewqimport React, { useContext } from "react";
+qqqqqqqqqqqqqqqqqewqimport React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CryptoContext } from "./../context/CryptoContext";
 import Pagination from "./Pagination";
