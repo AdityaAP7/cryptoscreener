@@ -12,7 +12,7 @@ import {
 } from "recharts";
 import { useContext } from "react";
 import { CryptoContext } from "./../context/CryptoContext";
-
+import { CryptoContext } from "./../context/CryptoContext";
 function CustomTooltip({ payload, label, active, currency = "usd" }) {
   if (active && payload && payload.length > 0) {
     return (
