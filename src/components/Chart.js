@@ -155,4 +155,10 @@ const Chart = ({ id }) => {
   );
 };
 
-export default Chart;
+export default Chart;import React, { useLayoutEffect, useState } from "react";
+
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
