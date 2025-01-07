@@ -1,5 +1,3 @@
-aaqqaaaaaaaa
-a
 
 import React, { useContext, useRef } from "react";
 import Search from "./Search";
@@ -47,6 +45,18 @@ const Filters = () => {
           >
             currency:{" "}
           </label>
+
+   <input
+            type="text"
+            name="currency"
+            ref={currencyRef}
+            placeholder="usd"
+            className="w-16 rounded bg-gray-200 placeholder:text-gray-100
+     pl-2 required outline-0 border border-transparent 
+     focus:border-[#ffc757] leading-4
+     "
+          />
+  
           <input
             type="text"
             name="currency"
