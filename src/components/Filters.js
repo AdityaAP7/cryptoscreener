@@ -47,7 +47,7 @@ const Filters = () => {
           </label>
 
    <input
-            type="text"
+          
             name="currency"
             ref={currencyRef}
             placeholder="usd"
