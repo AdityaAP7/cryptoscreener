@@ -48,7 +48,7 @@ const Filters = () => {
 
    <input
           
-            name="currency"
+            
             ref={currencyRef}
             placeholder="usd"
             className="w-16 rounded bg-gray-200 placeholder:text-gray-100
