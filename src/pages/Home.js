@@ -1,4 +1,4 @@
-import React from "react";
+1import React from "react";
 import { Outlet } from "react-router-dom";
 import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
